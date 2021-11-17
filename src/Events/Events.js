@@ -1,17 +1,24 @@
 import React from 'react'
-import Event from './Event'
+import Event from './Event';
+import './Events.css';
+import Cal from './Cal'
 
 function Events() {
 
-return (
-    <div className="events mt-5">
-        <Event url="https://source.unsplash.com/daily" name="Web-Development" date="Mon, May 25th 2020" detail="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!" />
-        <Event url="https://source.unsplash.com/daily" name="Python" date="Mon, May 25th 2020" detail="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!" />
-        <Event url="https://source.unsplash.com/daily" name="App-Development" date="Mon, May 25th 2020" detail="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!" />
-        <Event url="https://source.unsplash.com/daily" name="AI" date="Mon, May 25th 2020" detail="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!" />
-        <Event url="https://source.unsplash.com/daily" name="ML" date="Mon, May 25th 2020" detail="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!" />
-    </div>
-)
+    return (
+        <div className="events">
+            <div className="event">
+                <Event url="https://source.unsplash.com/random" name="Web-Development" date="Mon, May 25th 2020" detail="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero." />
+                <Event url="https://source.unsplash.com/random" name="Python" date="Mon, May 25th 2020" detail="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero." />
+                <Event url="https://source.unsplash.com/random" name="App-Development" date="Mon, May 25th 2020" detail="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero." />
+                <Event url="https://source.unsplash.com/random" name="AI" date="Mon, May 25th 2020" detail="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero." />
+                <Event url="https://source.unsplash.com/random" name="ML" date="Mon, May 25th 2020" detail="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero." />
+            </div>
+            <div className="cal m-4">
+                <Cal/>
+            </div>
+        </div>
+    )
 }
 
 export default Events

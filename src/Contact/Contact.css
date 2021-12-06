@@ -1,368 +1,53 @@
-/* font-family: 'Open Sans', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
-/* font-family: 'Lato', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
-/* font-family: 'Nunito', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
-
-/* font-family: 'Inter', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-/* font-family: 'Merriweather Sans', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
-/* ---------------------------------------------------------- */
-/* ========================= COLORS ========================= */
-/* ---------------------------------------------------------- */
-.contact-color-1 {
-  /* color: #637381; */
-  color: black;
+.main{
+    height: 100vh;
+    width: 100%;
+    background: url("https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-/* ---------------------------------------------------------- */
-/* ========================= MARGIN ========================= */
-/* ---------------------------------------------------------- */
-/* .contact-margin-1 {
-  margin-bottom: 25px;
-} */
-
-/* ----------------------------------------------------------- */
-/* ========================= DISPLAY ========================= */
-/* ----------------------------------------------------------- */
-.contact-display-1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.box{
+    display: flex;
 }
 
-.contact-display-2 {
-  display: flex;
-  align-items: center;
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background: transparent;
 }
 
-.contact-display-3 {
-  display: flex;
-  flex-direction: column;
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-.contact-display-4 {
-  display: inline-flex;
+h1{
+    font-size: 3.5vw;
+    color: #3b38d0;
 }
 
-.contact-display-5 {
-  display: block;
-}
-
-.contact-display-6 {
-  display: flex;
-  align-items: center;
-  justify-content: right;
-}
-
-/* ---------------------------------------------------------- */
-/* ========================== FONTs ========================= */
-/* ---------------------------------------------------------- */
-.contact-font-1 {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.contact-font-2 {
-  font-family: 'Lato', sans-serif;
-}
-.contact-font-3 {
-  font-family: 'Nunito', sans-serif;
-}
-
-.contact-font-4 {
-  font-family: 'Inter', sans-serif;
-}
-
-.contact-font-5 {
-  font-family: 'Merriweather Sans', sans-serif;
-}
-
-/* ------------------------------------------------------------------ */
-/* ========================== WEB PAGE BODY ========================= */
-/* ------------------------------------------------------------------ */
-.container-contact {
-  /* height: 550px; */
-  height: 713px;
-  width: 100%;
-  /* margin: auto 0; */
-  padding: 130px;
-  background: url('https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80')
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.contact-items {
-  height: 620px;
-  width: 1000px;
-  /* margin: auto; */
-  border-radius: 15px;
-  /* background-color: white; */
-}
-
-/* ---------------------------------------------------------------------- */
-/* ========================= CONTACT ITEM LEFT ========================== */
-/* ---------------------------------------------------------------------- */
-.contact-item-left {
-  height: 100%;
-  width: 550px;
-}
-
-.contact-details {
-  max-width: 468px;
-  max-height: 390px;
-  margin-top: 122px;
-  /* margin-bottom: 10px; */
-}
-
-.contact-detail-title {
-  /* width: 100%; */
-  margin-bottom: 15px;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.contact-detail-description-1,
-.contact-detail-description-2 {
-  width: 100%;
-  font-size: 30px;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.contact-detail-description-2 {
-  margin-bottom: 50px;
-  /* padding-left: 20px; */
-  /* font-style: normal; */
-}
-
-.bx {
-  font-size: 30px;
-  /* margin-right: 7px; */
-}
-
-.contact-detail-1,
-.contact-detail-2,
-.contact-detail-3 {
-  /* width: 100%; */
-  /* padding-bottom: 2px; */
-  font-size: 17px;
-  font-weight: 500;
-}
-
-.contact-detail-2 {
-  margin-bottom: 17px;
-}
-
-.contact-detail-links ul {
-  width: 110px;
-  margin-top: 10px;
-  list-style: none;
-}
-
-.contact-detail-links ul li {
-  color: #7579e7;
-  cursor: pointer;
-  transition: 175ms transform ease-in-out;
-}
-
-.contact-detail-links ul li:hover,
-.contact-detail-links ul li:active {
-  color: #9ab3f5;
-  transform: scale(1.15);
-}
-
-.contact-detail-links ul li a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.contact-svg-1 {
-  height: 180px;
-  width: 155px;
-  /* margin-top: 60px; */
-  margin-left: 50px;
-}
-
-/* ---------------------------------------------------------------------- */
-/* ========================= CONTACT ITEM RIGHT ========================= */
-/* ---------------------------------------------------------------------- */
-.contact-item-right {
-  height: 100%;
-  width: 450px;
-  /* padding-top: 100px; */
-  /* display: inline-flex; */
-}
-
-.contact-form {
-  /* width: 302px; */
-  /* margin: 24px 50px 15px 30px; */
-  border-left: 1px solid rgba(241, 241, 241, 0.75);
-  padding-left: 75px;
-}
-
-.contact-form-title {
-  /* margin-bottom: 5px; */
-  font-size: 34px;
-  font-weight: 700;
-}
-
-.contact-form-text-1,
-.contact-form-text-2 {
-  font-weight: 500;
-  font-size: 12px;
-  /* margin-bottom: 15px; */
-}
-
-.contact-form-text-2 {
-  margin-bottom: 25px;
-}
-
-.contact-form-items {
-  display: block;
-}
-
-.contact-form-items > div:nth-child(-n + 3) {
-  margin-bottom: 25px;
-}
-
-.contact-form-item label {
-  width: 100%;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.contact-form-item input,
-.contact-form-item textarea {
-  height: 30px;
-  width: 100%;
-  border-style: none;
-  /* margin-top: 5px; */
-  /* padding: 0 0 0 10px; */
-  font-size: 14px;
-  font-weight: 500;
-  /* letter-spacing: 0.45px; */
-  /* border-radius: 7px; */
-  border-bottom: 1px solid rgba(241, 241, 241, 0.8);
-  background: transparent;
-  outline: none;
-  resize: none;
-  display: block;
-}
-
-.contact-form-item-message textarea {
-  height: 32px;
-  padding-top: 5px;
-}
-
-::placeholder {
-  font-weight: 400;
-  letter-spacing: 0.2px;
-  color: rgb(31, 30, 30);
-  /* color: rgb(49, 48, 48); */
-}
-
-.contact-form-item input:focus,
-.contact-form-item input:active,
-.contact-form-item textarea:focus,
-.contact-form-item textarea:active + .contact-form-item input {
-  border-bottom: 1px solid #3056d3;
-}
-
-/* .contact-form-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-.contact-form-footer {
-  margin: 5px 0 22px 0;
-}
-
-.contact-form-footer p {
-  font-size: 12px;
-  font-weight: 500;
-}
-.contact-form-button button {
-  /* height: 50px; */
-  height: 38px;
-  /* width: 100%; */
-  width: 150px;
-  font-size: 15px;
-  font-weight: 600;
-  border-radius: 5px;
-  color: white;
-  /* background-color: #3056d3; */
-  background-color: #7579e7;
-  outline: none;
-  border-style: none;
-  cursor: pointer;
-  background: linear-gradient(to right, #9ab3f5 50%, #7579e7 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all 0.25s ease-out;
-}
-
-.contact-form-button button:hover {
-  /* background-color: #4067e7; */
-  background-color: #9ab3f5;
-  /* transition: all 0.25s ease-out 0s; */
-  background-position: left bottom;
-  color: black;
-}
-
-/* ------------------------------------------------------------------ */
-/* ========================== GLASSMORPHISM ========================= */
-/* ------------------------------------------------------------------ */
-.contact-glass-1 {
-  background: rgba(255, 255, 255, 0.25);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-}
-
-.contact-glass-2 {
-  /* border-radius: 12px; */
-  background-color: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(209, 213, 219, 0.3);
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-}
-
-/* -------------------------------------------------------------- */
-/* ========================== GRADIENTS ========================= */
-/* -------------------------------------------------------------- */
-.contact-gradient-1 {
-  background: linear-gradient(to right top, #bcdbd6, #6b7274);
-}
-
-.contact-gradient-2 {
-  background: rgb(238, 174, 202);
-  background: linear-gradient(45deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-}
-
-.contact-gradient-3 {
-  background-color: #8ec5fc;
-  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
-}
-
-/* ---------------------------------------------------------------------- */
-/* ========================== BACKGROUND IMAGES ========================= */
-/* ---------------------------------------------------------------------- */
-.contact-background-1 {
-  background: url('https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80')
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+@media (max-width: 768px) {
+    .box{
+        flex-direction: column;
+    }
+    .svg{
+        display: none;
+    }
+    .form{
+        width: 100%;
+    }
 }

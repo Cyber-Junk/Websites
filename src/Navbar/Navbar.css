@@ -119,11 +119,11 @@
 }
 
 .sidebar li a:hover {
-  background: rgba( 255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
-  backdrop-filter: blur( 2px);
-  -webkit-backdrop-filter: blur( 2px);
-  border: 1px solid rgba( 255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .sidebar li a .links_name {
@@ -141,8 +141,12 @@
   pointer-events: auto;
 }
 
-.sidebar li a:hover .links_name, .sidebar li a:hover i {
+.sidebar li a:hover .links_name, .sidebar li a:hover i{
   transition: all 0.5s ease;
+  color: #11101D;
+}
+
+.sidebar li i:active{
   color: #11101D;
 }
 
@@ -157,4 +161,12 @@
   .sidebar li .tooltip {
     display: none;
   }
+}
+
+.active {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }

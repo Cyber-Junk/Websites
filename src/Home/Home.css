@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.home{
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 30px;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.big-heading {
+    color: #3b38d0;
+    font-size: 2rem;
+    text-shadow: thistle;
+    font-weight: 600;
+}
+
+.text {
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.list {
+    list-style: none;
+    font-family: "playfair-display";
+    color: #4B3869;
+    width: 20%;
+}
+
+@media (max-width:768px) {
+    .big-heading {
+        font-size: 1.5rem;
+    }
+
+    .text {
+        font-size: 0.7rem;
+    }
+}

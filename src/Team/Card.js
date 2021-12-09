@@ -8,8 +8,8 @@ function Card({ profile, name, post, linkedin, twitter }) {
                 <img src={profile} alt="Profile-Photo" className="img-fluid rounded-circle mb-3 shadow-sm" width="50%"/>
                 <h5 className="mb-0">{name}</h5><span className="small text-uppercase">{post}</span>
                 <ul className="social mb-0 list-inline mt-3">
-                    <li className="list-inline-item"><a href={linkedin} className="social-link"><i className='bx bxl-linkedin'></i></a></li>
-                    <li className="list-inline-item"><a href={twitter} className="social-link"><i className='bx bxl-twitter'></i></a></li>
+                    <li className="list-inline-item"><a href={linkedin} className="social-link" target="_blank"><i className='bx bxl-linkedin'></i></a></li>
+                    <li className="list-inline-item"><a href={twitter} className="social-link" target="_blank"><i className='bx bxl-twitter'></i></a></li>
                 </ul>
             </div>
         </div>

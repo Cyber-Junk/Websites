@@ -31,28 +31,28 @@ function Navbar() {
                 </div>
                 <ul className="nav-list">
                     <li>
-                        <NavLink exact activeClassName="active" to="/">
+                        <NavLink activeclassname="active" to="/">
                             <i className='bx bx-home-alt'></i>
                             <span className="links_name">Home</span>
                         </NavLink>
                         <span className="tooltip">Home</span>
                     </li>
                     <li>
-                        <NavLink activeClassName="active" to="/events">
+                        <NavLink activeclassname="active" to="/events">
                             <i className='bx bx-calendar-event'></i>
                             <span className="links_name">Events</span>
                         </NavLink>
                         <span className="tooltip">Events</span>
                     </li>
                     <li>
-                        <NavLink activeClassName="active" to="/team">
+                        <NavLink activeclassname="active" to="/team">
                             <i className='bx bx-group'></i>
                             <span className="links_name">Team</span>
                         </NavLink>
                         <span className="tooltip">Team</span>
                     </li>
                     <li>
-                        <NavLink activeClassName="active" to="/contact">
+                        <NavLink activeclassname="active" to="/contact">
                             <i className='bx bx-mail-send'></i>
                             <span className="links_name">Contact</span>
                         </NavLink>

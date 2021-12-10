@@ -1,7 +1,7 @@
 import React from 'react';
 import './Event.css';
 
-function Event({ url, name, date, detail }) {
+function Event({ url, name, link, detail }) {
     return (
         <div className="col-lg-4">
             <div className="card card-custom border-white border-0 my-5 mx-auto">
@@ -12,7 +12,7 @@ function Event({ url, name, date, detail }) {
                     <p className="card-text">{detail}</p>
                 </div>
                 <div className="card-footer">
-                    <a href="" className="btn btn-primary event_btn">Register</a>
+                    <a href={link} className="btn btn-primary event_btn" target="_blank">Register</a>
                 </div>
             </div>
         </div>

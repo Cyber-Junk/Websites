@@ -1,5 +1,5 @@
 import SponsCard from './SponsCard'
-import data from './Sponsor.json';
+import data from '../Data/Sponsor.json';
 
 function Sponsors() {
     return (

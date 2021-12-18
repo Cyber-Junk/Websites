@@ -6,7 +6,7 @@ function Contact() {
         <div className="main">
             <div className="box mx-5">
                 <div className="svg">
-                    <img src={require("./Saly-31.png").default} width="100%" alt="Contact_svg"/>
+                    <img src="/contact.webp" width="100%" alt="Contact_svg"/>
                 </div>
                 <div className="form my-5">
                     <h1 className="m-5">Contact US</h1>

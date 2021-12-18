@@ -52,6 +52,13 @@ function Navbar() {
                         <span className="tooltip">Team</span>
                     </li>
                     <li>
+                        <NavLink activeclassname="active" to="/sponsor">
+                            <i class='bx bx-donate-heart'></i>
+                            <span className="links_name">Sponsors</span>
+                        </NavLink>
+                        <span className="tooltip">Sponsors</span>
+                    </li>
+                    <li>
                         <NavLink activeclassname="active" to="/contact">
                             <i className='bx bx-mail-send'></i>
                             <span className="links_name">Contact</span>

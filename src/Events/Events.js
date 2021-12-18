@@ -1,14 +1,14 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Event from './Event';
-import './Events.css';
+import data from "../Data/events.json"
 
 function Events() {
-
     return (
         <div className="container-fluid min-vh-100">
             <div className="row m-auto">
-                <Event url={require("./posters/1.png").default} name="<100> Days of Infosec" detail="Weekly two spaces on twitter and live doubt sessions on discord. Get a chance to come to the cyberjunk live stage at twitch to get an opportunity to meet excellent Pentesters and learn from success stories. The fabulous community and networking chance that you will get." link="https://cyberjunk.typeform.com/to/O8se1hcq" />
-                <Event url={require("./posters/2.png").default} name="{100} Days of Code" detail="Weekly two spaces on twitter and live doubt sessions on discord. Get a chance to come to the cyberjunk live stage at twitch to get an opportunity to meet excellent Pentesters and learn from success stories. The fabulous community and networking chance that you will get." link="https://cyberjunk.typeform.com/to/pn4Wq371" />
+                {data.map(el => {
+                    return <Event url={require(`../Data/posters/${el.id}.png`).default} name={el.name} detail={el.detail} link={el.link} />
+                })}
             </div>
         </div>
     )

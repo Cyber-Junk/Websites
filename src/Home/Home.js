@@ -21,7 +21,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 m-auto">
-                    <img src={require("./Saly-19.png").default} alt="svg" width="100%"/>
+                    <img src="/home.webp" alt="svg" width="100%"/>
                 </div>
             </div>
         </div>

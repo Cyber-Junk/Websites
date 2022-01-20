@@ -69,10 +69,13 @@ function Navbar() {
             </div>
             <div>
                 <a href="https://www.linkedin.com/company/cyber-junk/" target="_blank">
-                    <i class='bx bxl-linkedin-square'></i>
+                    <i class='bx bxl-linkedin' ></i>
+                </a>
+                <a href="https://www.instagram.com/cyber.junk_/" target="_blank">
+                    <i class='bx bxl-instagram'></i>
                 </a>
                 <a href="https://twitter.com/CyberJunk_" target="_blank">
-                    <i class='bx bxl-twitter' ></i>
+                    <i class='bx bxl-twitter'></i>
                 </a>
             </div>
         </div>

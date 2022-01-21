@@ -10,7 +10,7 @@ function Events() {
                     return <Event url={require(`../Data/posters/${el.id}.png`).default} name={el.name} detail={el.detail} link={el.link} />
                 })}
             </div> */}
-            <h1 className="text">Coming Soon...</h1>
+            <h1 className="coming">Coming Soon...</h1>
         </div>
     )
 }
